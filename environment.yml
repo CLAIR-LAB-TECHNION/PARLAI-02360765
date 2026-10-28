@@ -1,0 +1,25 @@
+name: parlai
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - jupyterlab
+  - jupyterlab-slideshow
+  - ipywidgets
+  - ipykernel < 7
+  - matplotlib
+  - mediapy
+  - ffmpeg
+  - tqdm
+  - gymnasium
+  - gymnasium-classic_control
+  - gymnasium-box2d
+  - gymnasium-toy_text
+  - gymnasium-mujoco
+  - pytorch
+  - pip
+  - pip:
+      - pddlgym
+      - gymcts
+      - unified-planning[fast-downward]
+      - git+https://github.com/guyazran/jupyter-timeout
